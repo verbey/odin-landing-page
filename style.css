@@ -1,0 +1,197 @@
+body {
+	font-family: monospace;
+}
+
+body,
+h2 {
+	margin: 0;
+}
+
+.header,
+.description,
+.footer,
+.signUp {
+	padding: 32px 72px;
+	align-items: center;
+	flex: 1;
+}
+
+.header,
+.description,
+.footer {
+	background-color: #1f2937;
+}
+
+.logo,
+.descriptionHeader {
+	color: #f9faf8;
+}
+
+.descriptionButton,
+.signUpContainer,
+.signUpButton {
+	background-color: #3882f6;
+}
+
+.headerLinks a,
+.descriptionText,
+.descriptionButton,
+.signUpText,
+.signUpButton,
+.footer {
+	font-size: 18px;
+	color: #e5e7eb;
+	text-decoration: none;
+}
+
+.gallery,
+.quote {
+	padding: 24px 128px;
+	flex: 1;
+}
+
+.galleryHeader,
+.descriptionHeader {
+	font-weight: 900;
+}
+
+.galleryHeader,
+.quoteText {
+	color: #1f2937;
+}
+
+.descriptionButton:hover,
+.signUpButton {
+	cursor: pointer;
+}
+
+.page {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	font-size: 24px;
+}
+
+.headerLinks {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	gap: 8px;
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+}
+
+.descriptionLeftContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.descriptionHeader {
+	font-size: 48px;
+}
+
+.descriptionButton {
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.description img {
+	width: 600px;
+	height: auto;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 16px;
+}
+
+.galleryHeader {
+	font-size: 36px;
+	text-align: center;
+}
+
+.galleryContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 32px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 350px;
+	gap: 8px;
+}
+
+.card img {
+	border-radius: 24px;
+}
+
+.quote {
+	align-items: center;
+	background-color: #e5e7eb;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.quoteText {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 100;
+}
+
+.quote h6 {
+	align-self: flex-end;
+	font-size: 24px;
+}
+
+.signUpContainer {
+	display: flex;
+	justify-content: space-between;
+	padding: 32px;
+	border-radius: 16px;
+	align-items: center;
+}
+
+.signUpHeader {
+	color: #e5e7eb;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+.signUpButton {
+	width: 240px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	border: 3px solid #e5e7eb;
+	border-radius: 8px;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
